@@ -39,6 +39,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AutoMapper">
+      <HintPath>..\packages\AutoMapper.4.1.1\lib\net45\AutoMapper.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Ninject">
       <HintPath>..\packages\Ninject.3.2.0.0\lib\net45-full\Ninject.dll</HintPath>
@@ -249,9 +252,17 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\YouNoob.Common\YouNoob.Common.csproj">
+      <Project>{39a473e8-cf5c-45b8-ac60-1c1094b84789}</Project>
+      <Name>YouNoob.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\YouNoob.Data\YouNoob.Data.csproj">
       <Project>{1761fc1c-8305-43f1-9fef-d61115e16b87}</Project>
       <Name>YouNoob.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\YouNoob.Infrastructure\YouNoob.Infrastructure.csproj">
+      <Project>{26d47ea7-206d-4c6a-bf9c-64a94e92eea2}</Project>
+      <Name>YouNoob.Infrastructure</Name>
     </ProjectReference>
     <ProjectReference Include="..\YouNoob.Models\YouNoob.Models.csproj">
       <Project>{d52ab45b-1b5b-419e-87fc-50743b9f0656}</Project>

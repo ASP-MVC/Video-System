@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouNoob.Common", "YouNoob.C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouNoob.Contracts", "YouNoob.Contracts\YouNoob.Contracts.csproj", "{14AC7D3C-8F6F-4045-B2E3-8B4424B490F5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouNoob.Infrastructure", "YouNoob.Infrastructure\YouNoob.Infrastructure.csproj", "{26D47EA7-206D-4C6A-BF9C-64A94E92EEA2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,10 @@ Global
 		{14AC7D3C-8F6F-4045-B2E3-8B4424B490F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14AC7D3C-8F6F-4045-B2E3-8B4424B490F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14AC7D3C-8F6F-4045-B2E3-8B4424B490F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26D47EA7-206D-4C6A-BF9C-64A94E92EEA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26D47EA7-206D-4C6A-BF9C-64A94E92EEA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26D47EA7-206D-4C6A-BF9C-64A94E92EEA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26D47EA7-206D-4C6A-BF9C-64A94E92EEA2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -57,5 +63,6 @@ Global
 		{1761FC1C-8305-43F1-9FEF-D61115E16B87} = {C3034579-0C41-4784-A6C5-490037408248}
 		{39A473E8-CF5C-45B8-AC60-1C1094B84789} = {239761A8-87F4-4961-8747-C68414BBA716}
 		{14AC7D3C-8F6F-4045-B2E3-8B4424B490F5} = {C3034579-0C41-4784-A6C5-490037408248}
+		{26D47EA7-206D-4C6A-BF9C-64A94E92EEA2} = {E734BE33-AE7F-454E-92D9-AC6645709020}
 	EndGlobalSection
 EndGlobal
